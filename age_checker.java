@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class age_checker {
 
     public static void main (String[] args){
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)){
         System.out.println("enter your age");
         int age = scanner.nextInt();
         
@@ -19,6 +19,7 @@ public class age_checker {
 
         else{
             System.out.println("you are not adult:" );
+        }
         }
     }
 }
