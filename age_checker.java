@@ -6,10 +6,10 @@ public class age_checker {
         try (Scanner scanner = new Scanner(System.in)){
         System.out.println("enter your age");
         int age = scanner.nextInt();
-        
+    
 
 
-        if (age >= 75){
+        if (age >= 77){
             System.out.println("Ok Boomer");
         }
 
@@ -22,4 +22,5 @@ public class age_checker {
         }
         }
     }
+    
 }

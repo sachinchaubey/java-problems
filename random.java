@@ -6,7 +6,7 @@ import java.util.Random;
  */
 public class random {
 
-    public static void main(String[] args){
+public static void main(String[] args){
 
         // int x;
         double y;
