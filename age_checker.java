@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class age_checker {
 
     public static void main (String[] args){
@@ -9,11 +10,11 @@ public class age_checker {
     
 
 
-        if (age >= 77){
+        if (age >= 75){
             System.out.println("Ok Boomer");
         }
 
-        else if ( age >= 18 ){
+        else if ( age >= 16 ){
             System.out.println("you are adult");
         }
 
