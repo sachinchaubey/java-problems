@@ -31,8 +31,8 @@ public class arraylist_pro{
             }
         }
 
-        System.out.println("Even numbers : " + (even));
+        System.out.println("Even numbers : " + even);
 
-        System.out.println("Odd numbers : " + (odd));
+        System.out.println("Odd numbers : " + odd);
     }
 }
