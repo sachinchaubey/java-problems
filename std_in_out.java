@@ -6,24 +6,24 @@ import java.util.Scanner;
 
 public class std_in_out{
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
-        
-        System.out.println("Enter the int no: ");
-        int a = input.nextInt();
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Enter the int no: ");
+            int a = input.nextInt();
 
-        System.out.println("Enter the Double no: ");
-        double b = input.nextDouble();
+            System.out.println("Enter the Double no: ");
+            double b = input.nextDouble();
 
-        input.nextLine();
+            input.nextLine();
 
 
-        System.out.println("Enter the String no: ");
-        String c = input.nextLine();
+            System.out.println("Enter the String no: ");
+            String c = input.nextLine();
 
-        // print all outputs
-        System.out.println("String: " + c);
-        System.out.println("Double: " + b);
-        System.out.println("Int: " + a);
+            // print all outputs
+            System.out.println("String: " + c);
+            System.out.println("Double: " + b);
+            System.out.println("Int: " + a);
+        }
 
         
     }
