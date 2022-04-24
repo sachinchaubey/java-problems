@@ -3,30 +3,35 @@ import java.util.Scanner;
 // Hacker rank problem : loop II problem
 
 public class loop_II{
-    public static void main(String[] args){
-        Scanner q_int = new Scanner(System.in);
-        int q = q_int.nextInt();
-        System.out.println("enter the no");
-        Scanner a_int = new Scanner(System.in);
-        int a = a_int.nextInt();
-        int b = a_int.nextInt();
-        int n = a_int.nextInt();
-        int c = 1;
-        int k = 0;
-
-        for(int i = 0; i<n ; i++){
-            if( i == 0){
-                c =  1;
-                k = c * b;
+    
+        public static void  series(int a , int b, int n) {
+            int s = a;
+            for(int i = 0; i<n ; i++){
+                s = s + ((int)Math.pow(2,i)) * b;
+                System.out.print(s + " ");
             }
-            else{
-                c = (c * 2);
-                k = c * b;
-            }
-
-            a = a + k;
-
-            System.out.print( a + " ");
+            System.out.println("");
         }
+public static void main(String[] args){
+
+        try (Scanner sc = new Scanner(System.in)) {
+            int q = sc.nextInt();
+            nextLine();
+            int a,b,n;
+
+            while( q --> 0){
+                a = sc.nextInt();
+                b = sc.nextInt();
+                n = sc.nextInt();
+                nextLine();
+
+                series(a,b,n);
+
+            }
+            // series(a, b, n);
+        }
+
     }
+private static void nextLine() {
+}
 }
