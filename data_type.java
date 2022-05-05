@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class data_type{
     public static void main(String args[]){
-        Scanner scanner = new Scanner(System.in);
+        try (Scanner scanner = new Scanner(System.in)) {
             int n = scanner.nextInt();
             while(n --> 0){
                 try {
@@ -29,6 +29,7 @@ public class data_type{
                     //TODO: handle exception
                 }
             }
+        }
         }
             
 }
