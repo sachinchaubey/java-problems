@@ -1,3 +1,5 @@
+// TwoSum problem solution [leetcode] using hashmap
+
 import java.util.HashMap;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -22,14 +24,8 @@ class twoSum_leet{
         Scanner sc = new Scanner(System.in);
         int[] num = {2,3,5,6,10};
         int target = 16;
-        // System.out.println(num);
-        // System.out.println(twoSum(num,target));
         int[] ans = twoSum(num,target);
         System.out.println(Arrays.toString(ans));
-        // for(int i= 0 ; i < ans.length; i++){
-            // System.out.print( " " + ans[i] );
-        // }
-
         sc.close();
     }
 
