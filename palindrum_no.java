@@ -28,6 +28,5 @@ class palndrum_no{
         int num = sc.nextInt();
         System.out.println(isPalindrum(num));
         sc.close();
-
     }
 }
