@@ -17,7 +17,7 @@ public class mejorityElmt2 {
         return index;
     }
     public static void main(String[] args){
-        int arr[] = {3,2,3};
+        int arr[] = {3,2,3,2,2};
         System.out.println(major(arr));
 
     }
