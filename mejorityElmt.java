@@ -21,6 +21,8 @@ class mejorityElmt{
     }
     public static void main(String[] args){
         int arr[] = {3,2,3,3,2,2,2};
-        System.out.println(majorElmt(arr));  
+        System.out.println(majorElmt(arr));
+        int small = Integer.MAX_VALUE;
+        // System.out.println(small);  
     } 
 }
