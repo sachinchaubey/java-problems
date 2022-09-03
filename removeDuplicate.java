@@ -5,7 +5,7 @@ class removeDuplicate{
 
     
     public static void main(String[] args){
-        int arr[] = {1,1,2,2,3,5,5};
+        int arr[] = {1,1,2,2,0,2,0,3,3,5,5};
         int k = removeDuplicates(arr);
         int count=0;
         for(int i = 0 ; i < k ; i++){
