@@ -13,11 +13,8 @@ class codechef_1{
         
         int count = 0;
         for(int i = 0 ; i < n; i++){
-            // System.out.println(arr[i]);
             if(arr[i] == 10){
-                // System.out.println();
                 count++;
-                // System.out.println(count);
             }
         }
         System.out.println(count);
