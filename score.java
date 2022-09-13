@@ -1,21 +1,15 @@
 import java.util.Scanner;
 
-public class burgers {
+// codechef problem
+
+class score{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         while(n != 0){
             int A = sc.nextInt();
             int B = sc.nextInt();
-            if(A == B){
-                System.out.println(A);
-            }
-            else if(A >= B){
-                System.out.println(B);
-            }
-            else if(B >= A){
-                System.out.println(A);
-            }
+            System.out.println((A/10)*B);
             n--;
         }
         sc.close(); 
