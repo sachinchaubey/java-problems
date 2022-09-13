@@ -10,8 +10,7 @@ class chefInfor{
         while(n != 0){
             int X = sc.nextInt();
             int Y = sc.nextInt();
-            Y = (X*7) - Y;
-            System.out.println(Y);
+            System.out.println((X*7) - Y);
             n--;
         }
         sc.close(); 
