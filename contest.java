@@ -14,5 +14,6 @@ class contest{
             System.out.println((A-B)-C);
             n--;
         }
+        sc.close();
     }
 }
