@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// codeChef problems
 
 class pairShoes{
     public static void main(String[] args){
