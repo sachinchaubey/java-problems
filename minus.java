@@ -1,8 +1,11 @@
-
+import java.util.Scanner;
 class minus{
     public static void main(String[] args){
-        int  a = 3;
-        int  b = 1;
-        System.out.println(a * b);
+        Scanner sc = new Scanner(System.in);
+        int  a = sc.nextInt();
+        int  b = sc.nextInt();
+        a = Math.abs(a - b);
+        System.out.println(a);
+        sc.close();
     }
 }
