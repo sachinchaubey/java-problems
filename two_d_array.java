@@ -1,3 +1,5 @@
+// codeChef practice
+
 public class two_d_array{
     public static void main(String[] args){
         String[][] cars = {
@@ -11,6 +13,5 @@ public class two_d_array{
                 System.out.print(cars[i][j] + " ");
             }
         }
-                            
-       }
+    }
     }
