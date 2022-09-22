@@ -2,8 +2,9 @@
 class binarySearch1{
     public static void main(String[] args){
         int a[] = {2,3,4,5,8};
-        int key = 3;
+        int key = 8;
         int low = 0;
+        int loc = -1;
         int high = a.length-1;
         // System.out.println(12);
         while(low <= high){
@@ -12,8 +13,10 @@ class binarySearch1{
             int mid = (low + high)/2;
             mid = (int) Math.floor(mid);
             if(a[mid] == key){
-                System.out.println(mid);
+                loc = mid;
                 break;
+                // System.out.println(mid);
+                // break;
             }
             else if(key > a[mid]){
                 low = mid + 1;
@@ -24,6 +27,9 @@ class binarySearch1{
         }
         if(low > high){
             System.out.println("element not found");
+        }
+        else{
+            System.out.println(loc);
         }
         // System.out.println("element not found");
     }
