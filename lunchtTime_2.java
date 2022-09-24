@@ -1,4 +1,4 @@
-
+// codechef contest seplunchtime2022
 import java.util.Scanner;
 class lunchTime_2{
     public static void main(String[] args){
