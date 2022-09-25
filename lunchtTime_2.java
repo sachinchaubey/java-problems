@@ -18,5 +18,6 @@ class lunchTime_2{
                 System.out.println(r);
             }
         }
+        sc.close();
     }
 }
