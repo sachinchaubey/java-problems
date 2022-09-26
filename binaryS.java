@@ -10,8 +10,8 @@ class binaryS{
             if(a[mid] == key){
                 return mid;
             }
-            if(a[low] < a[mid]){
-                if(key >= a[low] && key < mid){
+            if(a[low] <= a[mid]){
+                if(key >= a[low] && key < a[mid]){
                     high = mid -1;
                 }
                 else{
@@ -30,8 +30,8 @@ class binaryS{
         return -1;
     }
     public static void main(String[] args){
-        int a[] = {4,5,6,7,0,1,2};
-        int key = 0;
+        int a[] = {1,3};
+        int key = 3;
         int loc = bSearch(a,key);
         if(loc != -1){
             System.out.println("Element are present at index :" + loc);
