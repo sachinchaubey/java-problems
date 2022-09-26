@@ -30,8 +30,8 @@ class binaryS{
         return -1;
     }
     public static void main(String[] args){
-        int a[] = {2,3,4,5,9,7,6};
-        int key = 7;
+        int a[] = {4,5,6,7,0,1,2};
+        int key = 0;
         int loc = bSearch(a,key);
         if(loc != -1){
             System.out.println("Element are present at index :" + loc);
