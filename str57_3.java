@@ -19,13 +19,7 @@ class srt57_3{
                 String ans = new String(ch);
                 System.out.println(ans);
             }
-
-
-
-            
-            // System.out.println(Arrays.toString(s));
-
         }
-        
+        sc.close(); 
     }
 }
