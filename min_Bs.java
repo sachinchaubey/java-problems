@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 // fine min from rotated array (Binary Search)
 // using Brute force
