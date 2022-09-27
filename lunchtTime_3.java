@@ -16,5 +16,6 @@ class lunchtTime_3 {
                 System.out.println("no");
             }
         }
+        sc.close();
     }
 }
