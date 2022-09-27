@@ -27,5 +27,6 @@ class srt57_2{
                 System.out.println(0);
             }
         }
+        sc.close();
     }
 }
