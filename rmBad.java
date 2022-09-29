@@ -1,4 +1,3 @@
-//codechef contest 
 
 import java.util.Scanner;
 
