@@ -21,6 +21,7 @@ class removeDuplicate{
         for(int i = 0 ; i < arr.length; i++){
             set.add(arr[i]); 
         }
+        // System.out.println(set);
         int k = set.size();
         int j = 0;
         for(int x : set){
