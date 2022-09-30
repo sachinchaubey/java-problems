@@ -15,9 +15,7 @@ class rmBad{
                 a[i] = sc.nextInt();
             }
             for(int i = 0 ;i<n ;i++){
-                if(a[i] != a[i+1]){
-                    count++;
-                }
+
             }
             System.out.println(count);
         }
