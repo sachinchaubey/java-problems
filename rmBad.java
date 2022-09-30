@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-//codechef problem
+// codechef
 
 class rmBad{
     public static void main(String[] args){
