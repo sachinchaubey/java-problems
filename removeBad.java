@@ -5,17 +5,17 @@ class removeBad{
 
         int t;
         t =  sc.nextInt();
-        while(t-->0){
+        while(t--){
             int n;
-            // n = sc.nextInt();
-            // Map<Interger,Integer> mp = new HashMap<>();
+            n = sc.nextInt();
+            Map<Interger,Integer> mp = new HashMap<>();
 
-            System.out.println("hello");
+            System.out.println();
 
-            // for(int i =0;i<n;i++){
-            //     int k = sc.nextInt();
-            //     // mp.
-            // }
+            for(int i =0;i<n;i++){
+                int k = sc.nextInt();
+                // mp.
+            }
 
         }
     }
