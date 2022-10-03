@@ -21,5 +21,6 @@ class eatcandi {
                 }
             }
         }
+        sc.close();
     }    
 }
