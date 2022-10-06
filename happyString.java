@@ -17,7 +17,6 @@ class happyString{
                         count++;
                     }
                 } 
-                // if(s.charAt(i))
             }
             if(count > 2){
                 // System.out.println(count);
