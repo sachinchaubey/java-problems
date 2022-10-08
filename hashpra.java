@@ -6,10 +6,10 @@ import java.util.Set;
 
 class hashpra{
     public static void main(String[] args){
-        int a[] = {1,3,3,4,3,6};
+        // int a[] = {1,3,3,4,3,6};
         // int n = a.length;
-        // String[] s = {"a","b","c","b" };
-        Set<Integer> set = new HashSet<>(Arrays.asList(a));
+        String[] s = {"a","b","c","b" };
+        Set<String> set = new HashSet<>(Arrays.asList(s));
         System.out.println(set);
     }
 }
