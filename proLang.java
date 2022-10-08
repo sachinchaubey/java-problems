@@ -11,7 +11,7 @@ class proLang{
             for(int i = 0 ; i< a.length; i++){
                 a[i] = sc.nextInt();
             }
-            for(int j = 2; j < a.length; j++){
+            for(int j = 2; j < a.length;j++){
                 if(a[0] == a[j] && a[1] == a[j+1] || a[1] == a[j] && a[0] == a[j+1]){
                     System.out.println(1);
                     break;
