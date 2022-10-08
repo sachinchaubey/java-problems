@@ -33,5 +33,6 @@ class multiChoice{
             System.out.println(count);
 
         }
+        sc.close();
     }
 }
