@@ -27,5 +27,6 @@ class buynew{
                 System.out.println("no tablet");
             }
         }
+        sc.close();
     }
 }
