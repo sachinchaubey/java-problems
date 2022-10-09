@@ -38,5 +38,6 @@ class minimizexor{
             }
         }
         System.out.println(ans);
+        
     }
 }
