@@ -19,20 +19,30 @@ class singleOp{
         int t = sc.nextInt();
         int max;
         int y = 0 ;
+        // int X = 0;
+        // int count = 0;
         while(t --> 0){
-            max = Integer.MIN_VALUE;
+            max = Integer.MAX_VALUE;
+            // max = Integer.MIN_VALUE;
             int n = sc.nextInt();
             String s = sc.next();
             int X = Integer.parseInt(s,2);
+            // for(int i = n-1; i>=0 ;i--){
+            //     if(s.charAt(i) == '1'){
+            //         X += Math.pow(2,count);
+            //     }
+            //     count++;
+            // }
             // System.out.println(X);
             int i;
-            for(i = 0 ; i<=n; i++){
+            for(i = 1 ; i<=n; i++){
                 // Math.pow(2, i);
-                // int k = (int) Math.pow(2,i);
-                // int c = X / k;
-                // int ans = X ^ c;
-                int ans = X ^ (X / (int) Math.pow(2,i));
-                if(ans > max){
+                int k = (int) Math.pow(2,i);
+                int c = X / k;
+                int ans = X ^ c;
+                // int ans = X ^ (X / (int) Math.pow(2,i));
+                // System.out.println(ans);
+                if(ans < max){
                     max = ans;
                     y = i;
                 }
