@@ -25,7 +25,7 @@ class proLang{
                     break;
                 }
             }
-            sc.close();
-        } 
+        }
+        sc.close(); 
     }
 }
