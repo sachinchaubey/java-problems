@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-//codechef pro
 
 class chefWeight{
     public static void main(String[] args){
