@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+//bubble sort
+
 class sort{
     public static void main(String[] args){
         int a[] = {100,4,200,3,1,1,2};
