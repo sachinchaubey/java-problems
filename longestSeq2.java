@@ -1,4 +1,3 @@
-// import java.util.Arrays;
 
 //optimize
 
@@ -13,6 +12,9 @@ class longestSeq{
         for(int i = 1; i < n ; i++){
             if(a[i] == pre+1){
                 count++;
+            }
+            else if(a[i] == pre){
+                
             }
             else if(a[i] != pre+1){
                 count = 1;
