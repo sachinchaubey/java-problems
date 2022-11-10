@@ -1,5 +1,4 @@
 // import java.util.Arrays;
-
 // move zero in end of array 
 // optimal solution 
 // complexity O[n],O[1]
@@ -33,7 +32,7 @@ class moveZero_1{
         }
     }
     public static void main(String[] args){
-        int arr[] = {1,0,1,2,0,1};
+        int arr[] = {0,1};
         Zeromove(arr);
 
     }
