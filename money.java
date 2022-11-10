@@ -24,5 +24,6 @@ class money{
             }
             System.out.println(s);
         }
+        sc.close();
     }
 }
