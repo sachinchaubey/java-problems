@@ -8,8 +8,9 @@ class fibonacci{
         int n1 = 0,n2 = 1,n3=0;
         int count = sc.nextInt();
         sc.close();
+        System.out.println("fibonacci series up to "+ count + "th term :");
         System.out.print(n1 +" "+n2);
-        for(int i = 2; i < count; i++){
+        for(int i = 2; i <= count; i++){
             n3 = n1+n2;
             System.out.print(" "+n3);
             n1 = n2;
